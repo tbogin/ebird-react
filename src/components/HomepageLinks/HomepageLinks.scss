@@ -1,0 +1,37 @@
+.HomepageLinks {
+  .homepage-header {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .checklist-start-cta-container {
+    text-align: center;
+  }
+
+  .checklist-start-cta {
+    text-decoration: none;
+    color: #107896;
+    font-size: 32px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .homepage-btn-container {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .homepage-btn {
+    width: 400px;
+    height: 400px;
+    border: 0;
+    background-image: url('../../images/ebird-react-homepage.png');
+    background-repeat: no-repeat;
+    &:hover {
+      transform: scale(1.1, 1.1);
+      -webkit-transform:scale(1.1, 1.1);
+      -moz-transform: scale(1.1, 1.1);
+    }
+  }
+}
